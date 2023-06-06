@@ -1,0 +1,171 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="bookingstyle.css">
+    <script src="lifenowjava.js"></script>
+    <script src="booking1.js"></script>
+
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Life Now - Booking </title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon3.png">
+    <link rel="stylesheet" href="style2.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/5e2cb9f1be.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  </head>
+
+  
+  
+  <body>
+    <!--Dette er mit banner, min navbar og mine knapper -->
+    
+
+   
+          
+         <div class="topnav" id="myTopnav">
+          
+          <nav>
+            <div class="logo">
+              <a href="Index.html">
+                <img decoding="async" src="images/logo1.png" alt="Logo Image"> 
+            </div>
+            <div class="hamburger">
+              <div class="bars1"></div>
+              <div class="bars2"></div>
+              <div class="bars3"></div>
+          </div>
+          <ul class="nav-links">
+              <li><a href="Index.html">HOME</a></li>
+              <li><a href="About.html">ABOUT</a></li>
+              <li><a href="price.html">SESSIONS</a></li>
+             <li><a href="blog.html">BLOG</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+              
+            
+             
+            </ul>
+        </nav>
+      <!--Dette er kilden til navbaren -->
+      <!--Kilde: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+    
+
+      
+  
+    </div>
+  </div>
+  
+  <br>
+  
+ 
+     
+   
+</b> <p>    </p>
+   
+
+</head>
+
+<body>
+
+  <section class="top-section">
+    <section class="top-section">
+      <h5>
+     
+          </p>
+       
+          <br>
+           <br>
+           <br>
+           <br>
+    <br>  
+       
+    
+</section>
+   
+  <!--Dette er mine billedfiler -->
+    <center>
+    <section class="image-section">
+        <br>
+     
+
+      <br>
+         <br>
+         <br>
+
+         <div></div>
+      
+         
+       
+    
+        
+
+        <section class="top-section">
+    
+   
+<br>
+<br>
+
+           <!--Dette er felterne der udfyldes ved booking -->
+   
+    <form action="reservation.php" method="post">
+      <div class="elem-group">
+        <label for="name">Name & Last name </label>
+        <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+      </div>
+      <div class="elem-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+      </div>
+      <div class="elem-group">
+        <label for="phone">Phone number </label>
+        <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+      </div>
+  
+      
+      </div>
+      
+      <select id="room-selection" name="room_preference" required>
+        <option value="">Choose session duration </option>
+        <option value="connecting">30 min. </option>
+        <option value="adjoining">1 Hour </option>
+        <option value="adjacent">2 Hours </option>
+    </select>
+  </div>
+
+  <div class="elem-group">
+    <label for="message">Anything Else?</label>
+    <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+  </div>
+      
+      <div class="elem-group inlined">
+        <label for="checkin-date">Choose date & time</label>
+        <input type="date" id="checkin-date" name="checkin" required>
+      </div>
+     
+    </form>
+ 
+   
+      
+            
+    <div class="btn-container">
+      <button id="btn2">BOOK NOW</button> 
+   
+    </div>
+
+    <br>
+    <br>
+</body>
+</html>
