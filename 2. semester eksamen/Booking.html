@@ -41,7 +41,7 @@
           <nav>
             <div class="logo">
               <a href="Index.html">
-                <img decoding="async" src="images/logo1.png" alt="Logo Image"> 
+                <img decoding="async" src="logo2.png" alt="Logo Image"> 
             </div>
             <div class="hamburger">
               <div class="bars1"></div>
@@ -123,15 +123,15 @@
     <form action="reservation.php" method="post">
       <div class="elem-group">
         <label for="name">Name & Last name </label>
-        <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+        <input type="text" id="name" name="visitor_name" placeholder="Your name" pattern=[A-Z\sa-z]{3,20} required>
       </div>
       <div class="elem-group">
         <label for="email">E-mail</label>
-        <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+        <input type="email" id="email" name="visitor_email" placeholder="Your e-mail" required>
       </div>
       <div class="elem-group">
         <label for="phone">Phone number </label>
-        <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+        <input type="tel" id="phone" name="visitor_phone" placeholder="123-456-78910" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
       </div>
   
       
@@ -146,12 +146,12 @@
   </div>
 
   <div class="elem-group">
-    <label for="message">Anything Else?</label>
+    <label for="message">Anything else you want to add?</label>
     <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
   </div>
       
       <div class="elem-group inlined">
-        <label for="checkin-date">Choose date & time</label>
+        <label for="checkin-date">Select date & time</label>
         <input type="date" id="checkin-date" name="checkin" required>
       </div>
      

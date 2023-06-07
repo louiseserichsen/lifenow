@@ -495,7 +495,26 @@ _responsive.asp*/
 
 
 
+footer{
+  position: bottom;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #FFA135;
+  height: auto;
+  max-width: 100%;
+  padding-top: 20px;
+  color: #fff;
+}
 
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  size: 10px;
+}
 
 
 }
